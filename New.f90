@@ -1,5 +1,4 @@
-!     Last change:  JP    5 Sep 2016    8:29 am
-      PROGRAM JPN 
+      PROGRAM 2DSH
 !     THE 1D SH-wave response of soil column above the basement using FD method
       implicit none
 	  integer, PARAMETER :: IDXMX=5000,JDZMX=5000,FXI=250,FXF=2474,FZI=1281,FZF=2114,INTV=2
@@ -869,4 +868,4 @@ SUBROUTINE LAH (DT,LS,TR,F)
     
     
     END SUBROUTINE time
-	  END PROGRAM JPN 
+	  END PROGRAM 2DSH 
